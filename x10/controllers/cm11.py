@@ -60,9 +60,8 @@ class CM11(SerialX10Controller):
         SerialX10Controller.open(self)
         while True:
             data = self.read()
-            print data
             if data == 0xA5:
-                self.write(0x9B)
+                self.write(0x9B) #stop 0xa5 polling
             if data == "":
                 break
     
