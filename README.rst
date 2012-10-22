@@ -2,12 +2,12 @@
 A python module to control X10 appliances
 =========================================
 
-Current state: alpha and incomplete
+Current state: working but incomplete API
 
-:Authors: Guillaume Libersat <glibersat@sigill.org>
+:Authors: Guillaume Libersat (@glibersat)
 
 :Contributors:
-  Axel Haustant <noirbizarre@gmail.com>
+  Axel Haustant (@noirbizarre), Riccardo Ferrazzo (@rferrazz)
 
 :License: GPL v3 (see COPYING)
 
@@ -30,6 +30,7 @@ Features
 Drivers
 =======
 
+- CM11/12 (thanks Riccardo!)
 - CM15
 - CM17a (Need testing!)
 
